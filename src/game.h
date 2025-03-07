@@ -2,6 +2,7 @@
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 #include <optional>
+#include "player.h"
 
 class Game{
   public:
@@ -13,4 +14,6 @@ class Game{
     void run();
   private:
     sf::RenderWindow window;
+    sf::Clock clock;
+    Player player;
 };

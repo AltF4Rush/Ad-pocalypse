@@ -275,4 +275,5 @@ CMakeFiles/main.dir/src/game.cpp.o: \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/Glsl.inl \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
- /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp
+ /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
+ /home/kaido/Projects/Ad-pocalypse/src/player.h
