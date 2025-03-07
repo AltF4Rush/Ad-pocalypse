@@ -3,6 +3,7 @@ main: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o \
   CMakeFiles/main.dir/src/main.cpp.o \
+  CMakeFiles/main.dir/src/game.cpp.o \
   _deps/sfml-build/lib/libsfml-graphics.a \
   _deps/sfml-build/lib/libsfml-window.a \
   /usr/lib/libXrandr.so \
@@ -68,6 +69,8 @@ main: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o:
 
 CMakeFiles/main.dir/src/main.cpp.o:
+
+CMakeFiles/main.dir/src/game.cpp.o:
 
 _deps/sfml-build/lib/libsfml-graphics.a:
 

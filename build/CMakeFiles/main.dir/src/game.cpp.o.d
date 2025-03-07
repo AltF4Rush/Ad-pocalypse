@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/src/main.cpp.o: \
- /home/kaido/Projects/Ad-pocalypse/src/main.cpp \
+CMakeFiles/main.dir/src/game.cpp.o: \
+ /home/kaido/Projects/Ad-pocalypse/src/game.cpp \
  /usr/include/stdc-predef.h /home/kaido/Projects/Ad-pocalypse/src/game.h \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window.hpp \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window/Clipboard.hpp \
