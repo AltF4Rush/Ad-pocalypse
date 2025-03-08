@@ -287,6 +287,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/platform.o: src/platform.cpp.o
+.PHONY : src/platform.o
+
+# target to build an object file
+src/platform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/platform.cpp.o
+.PHONY : src/platform.cpp.o
+
+src/platform.i: src/platform.cpp.i
+.PHONY : src/platform.i
+
+# target to preprocess a source file
+src/platform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/platform.cpp.i
+.PHONY : src/platform.cpp.i
+
+src/platform.s: src/platform.cpp.s
+.PHONY : src/platform.s
+
+# target to generate assembly for a file
+src/platform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/platform.cpp.s
+.PHONY : src/platform.cpp.s
+
 src/player.o: src/player.cpp.o
 .PHONY : src/player.o
 
@@ -335,6 +359,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/platform.o"
+	@echo "... src/platform.i"
+	@echo "... src/platform.s"
 	@echo "... src/player.o"
 	@echo "... src/player.i"
 	@echo "... src/player.s"

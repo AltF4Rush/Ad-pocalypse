@@ -7,6 +7,8 @@ Game::Game() : window(sf::VideoMode({800,600}), "Ad-pocalypse", sf::Style::Defau
 void Game::init(){
   window.setFramerateLimit(60);
   window.setKeyRepeatEnabled(false);
+  player.init();
+  platform.init();
 }
 
 void Game::update(){
@@ -23,6 +25,7 @@ void Game::update(){
 void Game::render(){
   window.clear(sf::Color::Black);
   player.draw(window);
+  platform.draw(window);
   window.display();
 }
 

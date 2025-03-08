@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kaido/Projects/Ad-pocalypse/src/game.cpp" "CMakeFiles/main.dir/src/game.cpp.o" "gcc" "CMakeFiles/main.dir/src/game.cpp.o.d"
   "/home/kaido/Projects/Ad-pocalypse/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/main.cpp.o.d"
+  "/home/kaido/Projects/Ad-pocalypse/src/platform.cpp" "CMakeFiles/main.dir/src/platform.cpp.o" "gcc" "CMakeFiles/main.dir/src/platform.cpp.o.d"
   "/home/kaido/Projects/Ad-pocalypse/src/player.cpp" "CMakeFiles/main.dir/src/player.cpp.o" "gcc" "CMakeFiles/main.dir/src/player.cpp.o.d"
   "" "main" "gcc" "CMakeFiles/main.dir/link.d"
   )

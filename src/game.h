@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include <optional>
 #include "player.h"
+#include "platform.h"
 
 class Game{
   public:
@@ -16,4 +17,5 @@ class Game{
     sf::RenderWindow window;
     sf::Clock clock;
     Player player;
+    Platform platform;
 };

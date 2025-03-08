@@ -1,6 +1,4 @@
 #include "player.h"
-#include <SFML/System/Vector2.hpp>
-#include <SFML/Window/Keyboard.hpp>
 
 void Player::init(){
   player.setSize(sf::Vector2f(50,50));
@@ -13,7 +11,7 @@ void Player::init(){
 void Player::gravity(float dt){
   velocity.y += g * dt;
   if(velocity.y > max_g){
-    velocity.y = max_g * dt;
+    velocity.y = max_g;
   }
   player.move(velocity * dt);
 }
@@ -24,6 +22,9 @@ void Player::move(float dt){
   }
   else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)){
     velocity.x = speed;
+  }
+  else{
+    velocity.x = 0;
   }
   player.move(velocity * dt);
 }
