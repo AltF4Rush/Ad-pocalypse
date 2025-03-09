@@ -1122,6 +1122,7 @@ CMakeFiles/main.dir/src/player.cpp.o: /home/kaido/Projects/Ad-pocalypse/src/play
   _deps/sfml-src/include/SFML/Window/WindowBase.inl \
   _deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
   _deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+  /home/kaido/Projects/Ad-pocalypse/src/platform.h \
   /home/kaido/Projects/Ad-pocalypse/src/player.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \

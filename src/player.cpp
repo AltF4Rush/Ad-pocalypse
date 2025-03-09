@@ -1,7 +1,7 @@
 #include "player.h"
 
 void Player::init(){
-  player.setSize(sf::Vector2f(50,50));
+  player.setSize(sf::Vector2f(25,25));
   player.setPosition(sf::Vector2f(0.0f,0.0f));
   player.setFillColor(sf::Color::Blue);
   player.setOutlineColor(sf::Color::White);
@@ -20,7 +20,7 @@ void Player::collision(const Platform& platform, float dt){
   sf::FloatRect playerBound = player.getGlobalBounds();
   sf::FloatRect PlatformBound = platform.platform.getGlobalBounds();
   if(playerBound.findIntersection(PlatformBound)){
-    player.setPosition(sf::Vector2f(player.getPosition().x, PlatformBound.size.y - playerBound.size.y));
+    player.setPosition(sf::Vector2f(player.getPosition().x, PlatformBound.position.y - playerBound.size.y));
     velocity.y = 0;
   }
 }
