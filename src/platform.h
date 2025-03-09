@@ -6,4 +6,5 @@ class Platform{
     void init();
     void draw(sf::RenderWindow& window);
     sf::RectangleShape platform;
+    sf::FloatRect collision();
 };

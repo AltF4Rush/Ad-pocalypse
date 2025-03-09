@@ -18,9 +18,9 @@ void Game::update(){
       window.close();
     }
   }
+  player.collision(platform, dt);
   player.gravity(dt);
   player.move(dt);
-  player.collision(platform, dt);
 }
 
 void Game::render(){
