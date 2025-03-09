@@ -16,6 +16,15 @@ void Player::gravity(float dt){
   player.move(velocity * dt);
 }
 
+void Player::collision(const Platform& platform, float dt){  
+  sf::FloatRect playerBound = player.getGlobalBounds();
+  sf::FloatRect PlatformBound = platform.platform.getGlobalBounds();
+  if(playerBound.findIntersection(PlatformBound)){
+    player.setPosition(sf::Vector2f(player.getPosition().x, PlatformBound.size.y - playerBound.size.y));
+    velocity.y = 0;
+  }
+}
+
 void Player::move(float dt){
   if(sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)){
     velocity.x = -speed;
@@ -28,6 +37,7 @@ void Player::move(float dt){
   }
   player.move(velocity * dt);
 }
+
 
 void Player::draw(sf::RenderWindow& window){
   window.draw(player);

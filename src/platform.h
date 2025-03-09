@@ -5,6 +5,5 @@ class Platform{
   public:
     void init();
     void draw(sf::RenderWindow& window);
-  private:
     sf::RectangleShape platform;
 };

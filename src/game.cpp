@@ -20,6 +20,7 @@ void Game::update(){
   }
   player.gravity(dt);
   player.move(dt);
+  player.collision(platform, dt);
 }
 
 void Game::render(){
