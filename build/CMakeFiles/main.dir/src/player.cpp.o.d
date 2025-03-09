@@ -2,13 +2,13 @@ CMakeFiles/main.dir/src/player.cpp.o: \
  /home/kaido/Projects/Ad-pocalypse/src/player.cpp \
  /usr/include/stdc-predef.h \
  /home/kaido/Projects/Ad-pocalypse/src/player.h \
- /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window.hpp \
- /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window/Clipboard.hpp \
- /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+ /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/System/Export.hpp \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Config.hpp \
- /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
- /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
- /usr/include/c++/14.2.1/memory /usr/include/c++/14.2.1/bits/memoryfwd.h \
+ /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
+ /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/System/Angle.inl \
+ /usr/include/c++/14.2.1/cassert \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -16,23 +16,41 @@ CMakeFiles/main.dir/src/player.cpp.o: \
  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
- /usr/include/c++/14.2.1/pstl/pstl_config.h \
- /usr/include/c++/14.2.1/bits/allocator.h \
- /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
- /usr/include/c++/14.2.1/bits/new_allocator.h /usr/include/c++/14.2.1/new \
+ /usr/include/c++/14.2.1/pstl/pstl_config.h /usr/include/assert.h \
+ /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /usr/include/c++/14.2.1/optional /usr/include/c++/14.2.1/bits/version.h \
+ /usr/include/c++/14.2.1/type_traits /usr/include/c++/14.2.1/exception \
  /usr/include/c++/14.2.1/bits/exception.h \
- /usr/include/c++/14.2.1/bits/version.h \
- /usr/include/c++/14.2.1/bits/functexcept.h \
+ /usr/include/c++/14.2.1/bits/exception_ptr.h \
  /usr/include/c++/14.2.1/bits/exception_defines.h \
- /usr/include/c++/14.2.1/bits/move.h /usr/include/c++/14.2.1/type_traits \
- /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+ /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+ /usr/include/c++/14.2.1/typeinfo \
+ /usr/include/c++/14.2.1/bits/hash_bytes.h /usr/include/c++/14.2.1/new \
+ /usr/include/c++/14.2.1/bits/move.h \
+ /usr/include/c++/14.2.1/bits/nested_exception.h \
+ /usr/include/c++/14.2.1/initializer_list \
+ /usr/include/c++/14.2.1/bits/enable_special_members.h \
+ /usr/include/c++/14.2.1/bits/functional_hash.h \
  /usr/include/c++/14.2.1/bits/stl_construct.h \
  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/14.2.1/bits/concept_check.h \
  /usr/include/c++/14.2.1/debug/assertions.h \
- /usr/include/c++/14.2.1/bits/stl_pair.h \
  /usr/include/c++/14.2.1/bits/utility.h \
+ /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+ /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window.hpp \
+ /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window/Clipboard.hpp \
+ /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
+ /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+ /usr/include/c++/14.2.1/memory /usr/include/c++/14.2.1/bits/memoryfwd.h \
+ /usr/include/c++/14.2.1/bits/allocator.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/14.2.1/bits/new_allocator.h \
+ /usr/include/c++/14.2.1/bits/functexcept.h \
+ /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+ /usr/include/c++/14.2.1/bits/stl_pair.h \
  /usr/include/c++/14.2.1/ext/numeric_traits.h \
  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
  /usr/include/c++/14.2.1/ext/type_traits.h \
@@ -58,22 +76,18 @@ CMakeFiles/main.dir/src/player.cpp.o: \
  /usr/include/c++/14.2.1/bits/invoke.h \
  /usr/include/c++/14.2.1/bits/stl_function.h \
  /usr/include/c++/14.2.1/backward/binders.h \
- /usr/include/c++/14.2.1/bits/functional_hash.h \
- /usr/include/c++/14.2.1/bits/hash_bytes.h \
  /usr/include/c++/14.2.1/bits/shared_ptr.h /usr/include/c++/14.2.1/iosfwd \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/bits/stringfwd.h \
  /usr/include/c++/14.2.1/bits/postypes.h /usr/include/c++/14.2.1/cwchar \
  /usr/include/wchar.h /usr/include/bits/floatn.h \
  /usr/include/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
  /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
  /usr/include/bits/types/__locale_t.h \
  /usr/include/c++/14.2.1/bits/shared_ptr_base.h \
- /usr/include/c++/14.2.1/typeinfo \
  /usr/include/c++/14.2.1/bits/allocated_ptr.h \
  /usr/include/c++/14.2.1/bits/refwrap.h \
  /usr/include/c++/14.2.1/ext/aligned_buffer.h \
@@ -106,34 +120,21 @@ CMakeFiles/main.dir/src/player.cpp.o: \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
  /usr/include/sys/single_threaded.h \
  /usr/include/c++/14.2.1/ext/concurrence.h \
- /usr/include/c++/14.2.1/exception \
- /usr/include/c++/14.2.1/bits/exception_ptr.h \
- /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
- /usr/include/c++/14.2.1/bits/nested_exception.h \
  /usr/include/c++/14.2.1/bits/shared_ptr_atomic.h \
  /usr/include/c++/14.2.1/bits/atomic_base.h \
  /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
  /usr/include/c++/14.2.1/backward/auto_ptr.h \
  /usr/include/c++/14.2.1/pstl/glue_memory_defs.h \
  /usr/include/c++/14.2.1/pstl/execution_defs.h \
- /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/System/Angle.hpp \
- /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/System/Angle.inl \
- /usr/include/c++/14.2.1/cassert /usr/include/assert.h \
- /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
  /usr/include/c++/14.2.1/string_view \
  /usr/include/c++/14.2.1/bits/char_traits.h \
  /usr/include/c++/14.2.1/bits/range_access.h \
- /usr/include/c++/14.2.1/initializer_list \
  /usr/include/c++/14.2.1/bits/ostream_insert.h \
  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
  /usr/include/c++/14.2.1/bits/string_view.tcc \
  /usr/include/c++/14.2.1/cstdint \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
- /usr/include/c++/14.2.1/optional \
- /usr/include/c++/14.2.1/bits/enable_special_members.h \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window/Event.hpp \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/System/String.hpp \
@@ -245,8 +246,6 @@ CMakeFiles/main.dir/src/player.cpp.o: \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/Color.inl \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
- /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
- /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
  /home/kaido/Projects/Ad-pocalypse/build/_deps/sfml-src/include/SFML/Graphics/StencilMode.hpp \
